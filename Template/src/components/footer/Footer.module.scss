@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+.FooterContainer{
+    background-color:  #2C3B6F;
+    height: 287px;
+    .InfoCont{
+        display: flex;
+        justify-content: space-around;
+        font-family: 'Jura', sans-serif;
+        color: #ffffff;
+        div{
+            width: 25%;
+            h3{
+                font-family: 'Inter', sans-serif;
+            }
+        }
+    }
+}
