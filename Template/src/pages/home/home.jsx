@@ -1,9 +1,10 @@
 import React from 'react'
+import { Section_cards } from '../../components'
 
 const Home = () => {
   return (
     <div>
-      Home
+      <Section_cards />
     </div>
   )
 }
