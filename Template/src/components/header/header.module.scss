@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300;400&display=swap');
+
+.headerWrapper {
+    width: 100%;
+    .textWrapper {
+        position: absolute;
+        z-index: 9999;
+        left: 54%;
+        top: 45%;
+        font-family: 'Jura', sans-serif;
+        h1 {
+            color: white;
+            font-size: 7rem;
+            margin: 0;
+            font-weight: 400;
+            .sepColor {
+                color: #002BC2;
+            }
+        }
+        p {
+            color: white;
+            font-size: 1.3rem;
+            margin: 0;
+        }
+    }
+    .hImg {
+        width: 100%;
+        position: relative;
+    }
+
+}

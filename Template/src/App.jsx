@@ -4,7 +4,11 @@ import { Footer } from './components/footer/Footer.jsx';
 
 import { Home, Advokaterne, Kontakt, Om } from './pages'
 import { Nav } from './components'
+
+import { Header } from './components/header/header.jsx'
+
 import './App.scss'
+
 
 
 function App() {
@@ -16,6 +20,7 @@ function App() {
       
      <Router>
       <Nav />
+      <Header></Header>
       <Routes>
         <Route path="/" Component={Home} />
         <Route path="/advokaterne" Component={Advokaterne} />
