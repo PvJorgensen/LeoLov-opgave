@@ -5,14 +5,34 @@
     background-color:  #2C3B6F;
     height: 287px;
     .InfoCont{
+        padding: 80px;
         display: flex;
         justify-content: space-around;
-        font-family: 'Jura', sans-serif;
         color: #ffffff;
         div{
-            width: 25%;
+            width: 20%;
             h3{
                 font-family: 'Inter', sans-serif;
+                padding-bottom: 10px;
+                &:hover{
+                    cursor: pointer;
+                    text-decoration: underline;
+                }
+            }
+            p{
+                padding-bottom: 5px;
+                font-family: 'Jura', sans-serif;
+                &:hover{
+                    cursor: pointer;
+                    text-decoration: underline;
+                }
+            }
+            svg{
+                margin: 10px;
+                &:hover{
+                    cursor: pointer;
+                    text-decoration: underline;
+                }
             }
         }
     }

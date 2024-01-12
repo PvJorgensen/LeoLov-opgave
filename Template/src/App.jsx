@@ -1,7 +1,6 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
 import { Footer } from './components/footer/Footer.jsx';
-
 import { Home, Advokaterne, Kontakt, Om } from './pages'
 import { Nav } from './components'
 import './App.scss'
