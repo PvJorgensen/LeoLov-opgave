@@ -3,21 +3,18 @@
 
 .cards {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(4, 1fr);
     gap: 4rem;
-    width: 71%;
-    left: 50%;
-    transform: translateX(-50%);
-    position: absolute;
-    top: 145%;
     text-align: center;
     font-family: 'Jura', sans-serif;
     font-weight: 400;
+
     figure {
         border: 1px solid black;
         background-color: white;
         border-radius: 5px;
-        height: 300px;
+        width: 270px;
+        height: 391px;
         figcaption {
             margin-top: 6%;
             margin-bottom: 18%;

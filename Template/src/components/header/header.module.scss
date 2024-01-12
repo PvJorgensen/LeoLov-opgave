@@ -2,6 +2,8 @@
 
 .headerWrapper {
     width: 100%;
+    position: relative;
+
     .textWrapper {
         position: absolute;
         z-index: 9999;
@@ -26,6 +28,13 @@
     .hImg {
         width: 100%;
         position: relative;
+    }
+
+    .cardsDiv {
+        position: absolute;
+        top: 105%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 
 }
