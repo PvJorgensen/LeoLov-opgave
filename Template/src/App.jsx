@@ -6,7 +6,7 @@ import { Home, Advokaterne, Kontakt, Om } from './pages'
 import { Nav } from './components'
 
 import { Header } from './components/header/header.jsx'
-
+import { Cards } from './components/cards/cards.jsx'
 import './App.scss'
 
 
@@ -21,6 +21,7 @@ function App() {
      <Router>
       <Nav />
       <Header></Header>
+      <Cards></Cards>
       <Routes>
         <Route path="/" Component={Home} />
         <Route path="/advokaterne" Component={Advokaterne} />

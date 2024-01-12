@@ -1,6 +1,7 @@
 .section-cards {
   margin: auto;
   width: 1200px;
+  margin-top: 18%;
 }
 .section-cards .card {
   margin: 65px;
