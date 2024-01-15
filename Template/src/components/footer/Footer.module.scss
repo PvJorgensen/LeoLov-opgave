@@ -37,3 +37,17 @@
         }
     }
 }
+
+@media(max-width:600px){
+    .FooterContainer{
+        display: block;
+        margin-left: 100%;
+        width: 400px;
+        height: fit-content;
+        .InfoCont{
+            display: flex;
+            flex-direction: column;
+        }
+    }   
+
+}
